@@ -1,0 +1,36 @@
+{
+  "name": "static_node_server",
+  "version": "1.0.0",
+  "description": "a static file server",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleshi312/static_node_server.git"
+  },
+  "keywords": [
+    "node",
+    "handlebars"
+  ],
+  "author": "kyleshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyleshi312/static_node_server/issues"
+  },
+  "homepage": "https://github.com/kyleshi312/static_node_server#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
